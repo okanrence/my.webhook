@@ -71,22 +71,22 @@ namespace tamara.webhook.Controllers
                            }
                       },
 
-                    new  Message()
-                      {
-                          platform = Platforms.ACTIONS_ON_GOOGLE.ToString(),
+                    //new  Message()
+                    //  {
+                    //      platform = Platforms.ACTIONS_ON_GOOGLE.ToString(),
 
-                         simpleResponses = new SimpleResponses()
-                           {
-                               simpleResponses = new List<SimpleResponse>()
-                                {
-                                   new SimpleResponse()
-                                   {
-                                       textToSpeech = "How can i help u today",
-                                       displayText = "How can i help u today"
-                                   }
-                                }
-                           }
-                      }
+                    //     simpleResponses = new SimpleResponses()
+                    //       {
+                    //           simpleResponses = new List<SimpleResponse>()
+                    //            {
+                    //               new SimpleResponse()
+                    //               {
+                    //                   textToSpeech = "How can i help u today",
+                    //                   displayText = "How can i help u today"
+                    //               }
+                    //            }
+                    //       }
+                    //  }
                   };
 
             payload.queryResult.fulfillmentMessages = fulfillmentMessages;
