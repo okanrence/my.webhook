@@ -6,7 +6,6 @@ using System.Web;
 namespace tamara.webhook.Models
 {
 
-
     public class RequestPayload
     {
         public string session { get; set; }
@@ -34,6 +33,7 @@ namespace tamara.webhook.Models
 
     public class Parameters
     {
+        public string name { get; set; }
     }
 
     public class Webhookpayload
@@ -49,7 +49,6 @@ namespace tamara.webhook.Models
     {
         public string platform { get; set; }
         public SimpleResponses simpleResponses { get; set; }
-       // public Text text { get; set; }
     }
 
     public enum Platforms
@@ -88,8 +87,6 @@ namespace tamara.webhook.Models
        // public string ssml { get; set; }
         public string displayText { get; set; }
     }
-
-
 
     public class Intent
     {

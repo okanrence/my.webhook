@@ -5,7 +5,7 @@ using System.Web;
 
 namespace tamara.webhook.Models.Response
 {
-    public class ResponseMsg
+    public class ResponseV1
     {
         public string speech { get; set; }
         public ICollection<Message> messages { get; set; }

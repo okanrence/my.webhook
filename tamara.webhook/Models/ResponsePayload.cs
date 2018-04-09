@@ -14,17 +14,17 @@ namespace tamara.webhook.Models
         public string source { get; set; }
         public Payload payload { get; set; }
         public ICollection<Context> outputContexts { get; set; }
-        public Followupeventinput followupEventInput { get; set; }
+        public EventInput followupEventInput { get; set; }
     }
 
     public class Payload
     {
     }
 
-    public class Followupeventinput
-    {
-        public EventInput EventInput { get; set; }
-    }
+    //public class Followupeventinput
+    //{
+    //    public EventInput EventInput { get; set; }
+    //}
 
 
     public class EventInput
