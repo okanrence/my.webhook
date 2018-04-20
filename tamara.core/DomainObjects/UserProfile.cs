@@ -26,6 +26,7 @@ namespace tamara.webhook.core.domain
         public string Pin { get; set; }
         public DateTime LastUpdateDate { get; set; }
         public DateTime CreationDate { get; set; }
+        public DateTime DeletionDate { get; set; }
       
         public string EncrytedPin
         {
